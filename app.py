@@ -16,7 +16,7 @@ app = Flask(__name__)
 # create route that renders index.html template
 @app.route("/")
 def home():
-    return render_template("Project_3/templates/index.html")
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
