@@ -17,17 +17,18 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template("index.html")
+
 @app.route("/mL")
 def mL():
-    return render_template("mL.html")
+    return render_template("/mL/index.html")
 
 @app.route("/Tableau")
 def Tabluea():
-    return render_template("Tableau.html")
+    return render_template("/Tableau/index.html")
 
 @app.route("/data")
 def data():
-    return render_template("data.html")
+    return render_template("/data/index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
