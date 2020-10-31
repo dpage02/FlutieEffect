@@ -9,7 +9,9 @@ In a study done by Harvard Business School Assistant Professor of marketing Doug
 ## Data 
 Admissions data was taking from National Center for Eductional Statistcs (https://nces.ed.gov/ipeds/use-the-data). Athletic Expense data was taken from College Athletics Financial Information (CAFI) Database. 
 
-##Tableau Visualization Writeup
+We are looking at the years 2002-2019 due to the limitations of the admissions data. NCES does not collect data on schools with rolling admissions. 
+
+## Tableau Visualization Writeup
 Using tableau for this project, the goal  was to analyze the data and create visualizations that shows correlation between championship and admissions for universities football program over the past two decades. The foundation for our project is based on the Doug Flutie Effect concept that says if a school wins a championship, that school would yield higher enrollment.  The process used for the visualizations is outlined below: 
 ·      Utilized Python to perform ETL on our raw datasets to generate multiple cleaned csv datasets
 ·      Imported cleaned datasets into Tableau
