@@ -69,33 +69,38 @@
             <hr>
             <p><b>Total Expenses v. Total Revenue</b></p>
             <br>
-          <img src="../Resources/images/predicted_profit.png" alt="mL">
-          <p>In our analysis we wanted to look at what it takes to create a successful Division 1 football
-            program. On our x axis we have the expenses by team and their resulting revenue on the y axis.
-            As expected the more you send on a program the more your revenue should increase. Most teams 
-            are spending under $50 million while larger schools can afford to spend upwards up $100 to $160 
-            million in some cases. However, after
-            about $100 million to $110 million  spent we start to see more negative returns than positive.
-            This was an intresting outcome because in our research most of our recognizable Power 5 Division 1
-            schools are spending well above 110 million to finance their programs. While they might be an anomaly
-            when looking at all 130 Division 1 football programs, we know extra spending does not always guarantee
-            success. While their are other factors that can impact the success of a team we believe that colleges
-            that spend around 80 million on their football programs get the best return.</p>
+          <img src="../Resources/images/linearity.png" alt="mL">
+          <p>In our analysis we wanted to look at what it takes to create a profitible Division 1 football
+            program. We began our analysis by creating a simple scatter plot to prove linearity before moving on and creating the model.
+            This is an important step in determining which kind of model to use. Since we see a clear linear relationship
+            here, we decided to create a univariate regression model.                                                   
+            </p>
 
             <hr>
             <p><b>Profit v. Total Expenditures</b></p>
             <br>
-          <img src="../Resources/images/mL2.png" alt="mL2">
-          <p>Secondly, we look a look at profits based on total football expeditures. Again most Divison 1 schools
-              are spending less than $60 million a year and breaking even. The data is very inconclusive as colleges 
-              increase spending. Since high spending does not guarantee success it is hard to predict the just how much 
-              colleges should expect in return. Many things like injury or lack of attendance can easily impact profits.</p>
+          <img src="../Resources/images/predicted_profit.png" alt="mL2">
+          <p>Secondly, we look a look at potential profits based on total football expeditures. Again most Divison 1 schools
+            are spending less than $60 million a year and breaking even. This was an interesting outcome because in our research most of our 
+            recognizable Power 5 Division 1 schools are spending well above 110 million to finance their programs. While they might be an anomaly
+            when looking at all 130 Division 1 football programs, we know extra spending does not always guarantee
+            success. While their are other factors that can impact the success of a team we believe that colleges
+            that spend around 80 million on their football programs get the best return. The data is very inconclusive as colleges 
+            increase spending. Since high spending does not guarantee success it is hard to predict the just how much 
+            colleges should expect in return. Many things like injury or lack of attendance can easily impact profits.</p>
             
               <hr>
               <p><b>Limitations</b></p>
               <br>
-            <img src="../Resources/images/mL3.png" alt="mL3">
-            <p>
+            <img src="../Resources/images/multi_plot.png" alt="mL3">
+            <p> When we began our data exploration and initial modeling, we wanted to try to find the "sweet spot" for expenditure and cash inflows
+                from various sources. We were fortunate enough to find an excellent dataset that gave us the breakdown of all major categories of inflows
+                and outflows, and we wanted to predict where a team would be if they stayed on their current path, made a significant investment in the team,
+                or emphasized bringing money in through various means. We created a correlation matrix to figure out which of our independent variables were 
+                most responsible for revenue. We created our model with 7 variables ranging from coach's salary and recruiting expenses to advertising revenue
+                and ticket sales. Unfortunately we learned that making multivariate forecasts is virtually impossible unless using a time series model. It is also
+                extremely hard to interpret the results as you can see in this least squares regression plot. After learning this, we shifted our focus to plotting
+                potential profit as predicted by actual and predicted revenues.                                                                                                 
             
         </div>
       </div>
