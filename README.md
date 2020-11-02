@@ -1,4 +1,4 @@
-# Project_3
+# Project_3: Flutie Effect: Admission Impact from Athletic Success? 
 
 ## website: https://flutieeffect.herokuapp.com/
 
